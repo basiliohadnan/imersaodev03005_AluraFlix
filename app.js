@@ -21,7 +21,7 @@ function listarFilmesNaTela() {
     var elementoFilmeTitulo = "<h2>" + element[0] + "</h2>";
     var elementoFilmeURL = "<img src=" + element[1] + ">";
     var botaoDeletar =
-      "<button class='btn btn-danger' onClick='apagarFilme("+i+")'>X</button>";
+      "<p><button class='btn btn-danger' onClick='apagarFilme("+i+")'>X</button></p>";
     elementoListaFilmes.innerHTML =
       elementoListaFilmes.innerHTML +
       elementoFilmeURL +
